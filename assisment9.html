@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --mainvar:green;
+                }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+              height: 60vh;
+            width:40%; 
+            background-color: var(--mainvar);
+            display: flex;
+            flex-direction: column;
+            color: white;
+            padding: 40px;
+            
+        }
+        img{
+
+            height: 100px ;
+            width: 200px;
+        }
+        .img{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .text{
+            overflow-y: scroll;
+           
+        }
+        ::-webkit-scrollbar{
+            width: 5px;
+            background-color: grey;
+        }
+          ::-webkit-scrollbar-thumb{
+            background-color: white;
+            border-radius: 2px;
+        }
+         
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="img">
+        <img src="https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo-1977.png" alt="iphone logo">
+        <h1>Apple Inc</h1>
+    </div>
+    <div class="text">
+       <h3>Apple Inc., founded on April 1, 1976, by Steve Jobs, Steve Wozniak, and Ronald Wayne, is a multinational technology company headquartered in Cupertino, California.</h3>
+       <h3>Apple is renowned for its innovative consumer electronics, software, and online services, including the iPhone, iPad, Mac, Apple Watch, and Apple TV.</h3>
+      <h3>The company's success can be attributed to its commitment to sleek design, intuitive user interfaces, and seamless integration between hardware and software.</h3>
+      <h3>Apple's ecosystem, centered around services like iCloud, iTunes, and the App Store, has created a loyal customer base and fosters an interconnected user experience across its products.</h3>
+      <h3>Under the leadership of Steve Jobs, Apple revolutionized the technology industry with groundbreaking products like the iPod, iPhone, and iPad, setting new standards for smartphones, portable music players, and tablets.</h3>
+    </div>
+   </div>
+</body>
+</html>
